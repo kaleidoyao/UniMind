@@ -1,0 +1,182 @@
+{
+  "SEED": {
+    "train": "your/path/to/instruction_jsonl/SEED_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/SEED_test.jsonl",
+    "task_caption": "emotion recognition",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 200,
+    "num_image_token": 63,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "HMC": {
+    "train": "your/path/to/instruction_jsonl/HMC_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/HMC_test.jsonl",
+    "task_caption": "sleep stage classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 256,
+    "num_image_token": 121,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "Workload": {
+    "train": "your/path/to/instruction_jsonl/Workload_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/Workload_test.jsonl",
+    "task_caption": "cognitive workload classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 200,
+    "num_image_token": 191,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUAB": {
+    "train": "your/path/to/instruction_jsonl/TUAB_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/TUAB_test.jsonl",
+    "task_caption": "abnormal detection",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 250,
+    "num_image_token": 231,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUEV": {
+    "train": "your/path/to/instruction_jsonl/TUEV_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/TUEV_test.jsonl",
+    "task_caption": "event type classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 250,
+    "num_image_token": 116,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUSL": {
+    "train": "your/path/to/instruction_jsonl/TUSL_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/TUSL_test.jsonl",
+    "task_caption": "slowing event classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 250,
+    "num_image_token": 231,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SEEDIV": {
+    "train": "your/path/to/instruction_jsonl/SEEDIV_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/SEEDIV_test.jsonl",
+    "task_caption": "emotion recognition",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 200,
+    "num_image_token": 63,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SHU": {
+    "train": "your/path/to/instruction_jsonl/SHU_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/SHU_test.jsonl",
+    "task_caption": "motor imagery",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 250,
+    "num_image_token": 129,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SleepEDF": {
+    "train": "your/path/to/instruction_jsonl/SleepEDF_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/SleepEDF_test.jsonl",
+    "task_caption": "sleep stage classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 100,
+    "num_image_token": 61,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SHHS": {
+    "train": "your/path/to/instruction_jsonl/SHHS_train.jsonl",
+    "test": "your/path/to/instruction_jsonl/SHHS_test.jsonl",
+    "task_caption": "sleep stage classification",
+    "metric": "accuracy",
+    "max_new_tokens": 10,
+    "sample_rate": 125,
+    "num_image_token": 31,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  }
+}

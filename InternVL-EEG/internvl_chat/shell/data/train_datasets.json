@@ -1,0 +1,162 @@
+{
+  "SEED": {
+    "annotation": "your/path/to/instruction_jsonl/SEED_train.jsonl",
+    "task_caption": "emotion recognition",
+    "repeat_time": 1,
+    "sample_rate": 200,
+    "num_image_token": 63,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "HMC": {
+    "annotation": "your/path/to/instruction_jsonl/HMC_train.jsonl",
+    "task_caption": "sleep stage classification",
+    "repeat_time": 1,
+    "sample_rate": 256,
+    "num_image_token": 121,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUAB": {
+    "annotation": "your/path/to/instruction_jsonl/TUAB_train.jsonl",
+    "task_caption": "abnormal detection",
+    "repeat_time": 1,
+    "sample_rate": 250,
+    "num_image_token": 231,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUEV": {
+    "annotation": "your/path/to/instruction_jsonl/TUEV_train.jsonl",
+    "task_caption": "event type classification",
+    "repeat_time": 1,
+    "sample_rate": 250,
+    "num_image_token": 116,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "TUSL": {
+    "annotation": "your/path/to/instruction_jsonl/TUSL_train.jsonl",
+    "task_caption": "slowing event classification",
+    "repeat_time": 20,
+    "sample_rate": 250,
+    "num_image_token": 231,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "Workload": {
+    "annotation": "your/path/to/instruction_jsonl/Workload_train.jsonl",
+    "task_caption": "cognitive workload classification",
+    "repeat_time": 10,
+    "sample_rate": 200,
+    "num_image_token": 191,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SEEDIV": {
+    "annotation": "your/path/to/instruction_jsonl/SEEDIV_train.jsonl",
+    "task_caption": "emotion recognition",
+    "repeat_time": 1,
+    "sample_rate": 200,
+    "num_image_token": 63,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SHHS": {
+    "annotation": "your/path/to/instruction_jsonl/SHHS_train.jsonl",
+    "task_caption": "sleep stage classification",
+    "repeat_time": 1,
+    "sample_rate": 125,
+    "num_image_token": 31,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SleepEDF": {
+    "annotation": "your/path/to/instruction_jsonl/SleepEDF_train.jsonl",
+    "task_caption": "sleep stage classification",
+    "repeat_time": 1,
+    "sample_rate": 100,
+    "num_image_token": 61,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  },
+  "SHU": {
+    "annotation": "your/path/to/instruction_jsonl/SHU_train.jsonl",
+    "task_caption": "motor imagery",
+    "repeat_time": 5,
+    "sample_rate": 250,
+    "num_image_token": 129,
+    "ch_names": [
+      "..."
+    ],
+    "mean": [
+      "..."
+    ],
+    "std": [
+      "..."
+    ]
+  }
+}

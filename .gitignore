@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environments
+.env
+.venv
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.DS_Store
+
+# Generated local configs (contain machine-specific paths)
+*.local
+
+# Large model/data files
+*.pth
+*.pt
+*.safetensors
+*.ckpt
+*.bin
+work_dirs/
+results/
+pretrained/
+*.log
+*.pkl
+
+# Dataset annotation files (machine-specific paths, not tracked)
+instruction_jsonl/
+
+# Flash attention build artifacts (keep source, not build outputs)
+InternVL-EEG/internvl_chat/flash-attention-2.3.6/build/
+InternVL-EEG/internvl_chat/flash-attention-2.3.6/dist/
