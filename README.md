@@ -1,5 +1,11 @@
 # UniMind
 
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-2506.18962-A42C25?style=for-the-badge)](https://arxiv.org/abs/2506.18962)
+[![Project Page](https://img.shields.io/badge/Project%20Page-UniMind-4C6EF5?style=for-the-badge)](https://kaleidoyao.github.io/UniMind-project/)
+</div>
+
 ![](./assets//framework.png)
 
 
@@ -94,7 +100,7 @@ Each `.jsonl` line is one sample:
 ```bibtex
 @article{lu2025unimind,
   title   = {UniMind: Unleashing the Power of LLMs for Unified Multi-Task Brain Decoding},
-  author  = {Lu, Weiheng and Song, Chunfeng and Wu, Jiamin and Zhu, Pengyu and Zhou, Yuchen and Mai, Weijian and Zheng, Qihao and Ouyang, Wanli},
+  author  = {Lu, Weiheng and Yao, Zhouheng and Wu, Jiamin and Zhu, Pengyu and Zhou, Yuchen and Mai, Weijian and Zheng, Qihao and Ouyang, Wanli and Song, Chunfeng},
   journal = {arXiv preprint arXiv:2506.18962},
   year    = {2025},
   url     = {https://arxiv.org/abs/2506.18962}
